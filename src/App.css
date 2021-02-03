@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+* {
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input {
+    background: #FFFFFF;
+    border: 1px solid #DFE0E4;
+    border-radius: 2px;
+    padding: 7px 12px;
+    margin-right: 8px;
+    font-size: 14px;
+    line-height: 16px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.button {
+    background-color: #046AD2;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    color: #fff;
+    transition: all 0.25s ease;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 16px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.button:hover {
+    background-color: #6FB6FF;
 }
 
-.App-link {
-  color: #61dafb;
+.container-top-row {
+    display: flex;
+    align-items: flex-start;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination {
+    margin-bottom: 8px;
+}
+
+.pagination__title {
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.pagination__buttons {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.pagination__button:first-child {
+    margin-right: 8px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.container__search-row {
+    margin: 0 auto;
+}
+
+.main-title {
+    margin: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.masonry-component {
+    width: 600px;
+    margin: 0 auto;
 }
